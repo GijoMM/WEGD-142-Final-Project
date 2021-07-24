@@ -1,0 +1,440 @@
+@charset "utf-8";
+body {
+    background-color: #202020;
+    color: #E5E5E5;
+    font-family: "Futura PT Book";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+    font-family: "Futura PT";
+    font-size: 20pt;
+	margin-top: 60px;
+	text-decoration: underline;
+}
+
+
+h3 {
+    text-align: center;
+    font-family: "Futura PT";
+    font-weight: bold;
+    font-size: 20pt;
+	text-transform: uppercase;
+}
+h4 {
+    font-family: "Sansita Swashed";
+    font-size: 1.6rem;
+    color: #FCA311;
+    padding-top: 30px;
+}
+
+h5 {
+    color: #fca311;
+    font-size: 22px;
+    font-family: "Futura PT Book";
+    font-weight: bold;
+	text-align: center;
+}
+
+a {
+	color: #e5e5e5;
+	transition: color 0.2s ease-in-out 0.1s;
+}
+a:visited, a:link {
+	text-decoration: none;
+}
+
+a:hover {
+  color: #fca311;
+}
+
+a:active {
+	color: #fca311;
+	text-decoration: underline;
+}
+
+nav ul li {
+    float: left;
+}
+nav ul a {
+	font-family: "Helvetica LT Std Black";
+    display: inline;
+    padding: 20px;
+    text-align: center;
+	text-decoration: none;
+	color: #000;
+	float: left;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-top: 8px;
+    overflow: hidden;
+	width: 50%;
+}
+header nav div {
+    justify-content: flex-start;
+	width: 50%;
+	margin-left: 135px;
+	margin-top: 8px
+}
+
+nav {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+	z-index: 1;
+}
+
+button {
+    color: #fca311;
+    text-align: center;
+    width: 110px;
+    height: 40px;
+    font-family: "Futura PT Book";
+    font-weight: bold;
+    font-variant: normal;
+    background-color: #252525;
+    border: 1px solid #8C8C8C;
+    font-size: 15pt;
+	text-transform: uppercase;
+	transition: border 0.2s ease-in-out 0.1s;
+}
+
+button:hover {
+    border: 1px solid #fca311;
+}
+
+.orange-h2 {
+    text-align: center;
+    font-family: "Sansita Swashed";
+    color: #FCA311;
+    font-size: 3em;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+	text-decoration: none;
+}
+
+.flex-container {
+	flex-wrap: nowrap;
+	width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.flex-item {
+	flex: 1;
+	width: 250px;
+	height: inherit;
+	text-align: center;
+}
+
+.ourshop-image {
+    width: 100%;
+}
+
+.tattoo-icons {
+    margin: auto;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.tattoo-icons img {
+    display: block;
+    /* width: 100%; */
+    max-height: 174px;
+    height: auto;
+    margin: auto;
+}
+
+.hero-h1 {
+    height: 488px;
+    width: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    background-image: url(../images/heroHome.jpg);
+}
+.hero-h1 h1 {
+    font-family: "Sansita Swashed";
+    color: #FCA311;
+    font-size: 4em;
+}
+
+.flex-container .our-shop p {
+    padding: 8%;
+    margin: 0;
+    line-height: 25px;
+    font-size: 14pt;
+    letter-spacing: 1px;
+}
+
+.tattoo-section {
+    background-color: #252525;
+    height: 480px;
+}
+
+.price-section {
+	height: 315px;
+}
+
+.flex-item ul {
+	padding: 0;
+}
+
+.flex-item ul li {
+    font-family: "Futura PT Book";
+    color: #E5E5E5;
+    font-size: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 0px;	
+}
+
+footer {
+    border-top: 2px solid #FCA311;
+    background-color: #252525;
+    margin-top: 60px;
+}
+
+.working-hours-right {
+	margin-top: 127px;
+	margin-right: 160px;
+}
+.working-hours-right ul li {
+    font-size: 1rem;
+    line-height: 25px;
+}
+.working-hours-left ul li {
+    font-size: 1rem;
+    line-height: 25px;
+}
+.copyright  {
+    color: #393939;
+}
+
+.hero-tattoo {
+    height: 390px;
+    width: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    background-image: url("../images/hero-tattoo.jpg");
+}
+
+.hero-about {
+    height: 390px;
+    width: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    background-image: url("../images/hero-about.jpg");
+}
+
+.hero-contact {
+    height: 390px;
+    width: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    background-image: url("../images/hero-contact.jpg");
+}
+
+
+.grid-container {
+    display: grid;
+	grid-gap: 1px;
+	
+}
+.grid-container .gallery img {
+    width: 275px;
+}
+
+.gallery {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.flex-container .flex-item p {
+    text-align: left;
+    font-family: "Futura PT Book";
+    color: #8C8C8C;
+	padding: 15px;
+}
+
+.history {
+	background-color: #252525;
+	height: 330px;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.grid-4col {
+    display: grid;
+    height: auto;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-4col > div {
+  text-align: center;
+	width: 200px;
+}
+
+.grid-4col > div > img {
+	width: 200px;
+}
+
+.title-span4 {
+	grid-column: 1 / span 4;
+}
+
+
+.grid-3col {
+    display: grid;
+    height: auto;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-3col > div > img {
+	width: 200px;
+}
+
+.title-span3 {
+	grid-column: 1 / span 3;
+}
+
+
+a .gallery img {
+    text-align: center;
+    width: 200px;
+	margin-left: 38px;
+	margin-top: 50px;
+	transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+.gallery img:hover {
+	opacity: 0.6;
+}
+
+a .gallery p {
+    text-align: center;
+
+}
+.grid-4col .title-span4 {
+    text-align: center;
+    margin-bottom: -6px;
+    font-size: xx-large;
+
+}
+
+.contact-form {
+	display: block;
+}
+
+.contact-form input {
+	height: 45px;
+}
+
+.contact-form textarea {
+	min-height: 155px;
+	max-height: 155px;
+	min-width: 450px;
+	max-width: 450px;
+}
+
+.contact-form input, textarea {
+	margin-left: auto;
+	margin-right: auto;
+	width: 450px;
+	margin: 5px;
+	background-color: #252525;
+	border: 1px solid #8C8C8C;
+	color: #8C8C8C;
+	padding: 5px;
+	display: block;
+}
+.text-overlay {
+    position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.position-relative {
+    position: relative;
+    text-align: center;
+}
+a .gallery.position-relative img {
+    margin-top: 60px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.working-hours-left ul li {
+    width: auto;
+
+}
+
+.grid-footer {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.contacUs-footer {
+	margin-top: -180px;
+}
+
+.price-list-items {
+    padding-bottom: 10px;
+	margin-top: 25px;
+
+}
+.flex-container .flex-item img {
+	margin-top: 60px;
+}
